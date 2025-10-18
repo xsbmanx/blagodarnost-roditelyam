@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:ital,wght@1,600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #f2f2f2;
+  color: #333;
+}
+
+header.main-header {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffe082;
+}
+
+main.content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  animation: fadeIn 1s ease;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #2575fc;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.1em;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+footer {
+  background: #e0e0e0;
+  padding: 20px;
+  text-align: center;
+  color: #555;
+}
+
+ul.nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+ul.nav-list li {
+  margin-bottom: 10px;
+}
+
+ul.nav-list a {
+  font-weight: bold;
+  color: #2575fc;
+  text-decoration: none;
+}
+
+ul.nav-list a:hover {
+  text-decoration: underline;
+}
+
+/* Анимация появления */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Адаптивность*
